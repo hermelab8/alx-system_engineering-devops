@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type f,d -empty | ls -1
+find . -empty -type d,f -printf %f'\n'
